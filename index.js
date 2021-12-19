@@ -13,7 +13,7 @@ const app = express();
 app.use(express.json());
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://myrealm.netlify.app","https://myrealm.at","http://myrealm.at","https://www.myrealm.at","http://www.myrealm.at"],
+    origin: ["http://localhost:3000", "https://myrealm.netlify.app","https://myrealm.at","http://myrealm.at","https://www.myrealm.at","http://www.myrealm.at","https://myrealm.com","http://myrealm.com","https://www.myrealm.com","http://www.myrealm.com"],
     credentials: true,
   })
 );
